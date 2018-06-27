@@ -93,10 +93,13 @@ export class TreeComponent implements OnInit {
         var chield = stack.getChildAt(1);
         
         if (chield.className == "close") {
+            stack.opacity = 0;
             chield.className = "open";
             chield.translateY = -300;
+            stack.opacity = 1;
             chield.animate({
-                scale: { x: 1, y:1},    
+                scale: { x: 1, y:1},   
+                translate:{x:0,y:0},
                 duration: 1000,
                 curve: AnimationCurve.easeIn
             });

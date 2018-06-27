@@ -6,13 +6,22 @@
                     <label [text]="item.ItemName">
                     </label>
                     <StackLayout style="background-color: aquamarine" class="close">
-                        <StackLayout style="background-color: whitesmoke">
+                        <StackLayout [slide]="slide_down" style="background-color: whitesmoke">
                             <Label *ngFor="let subitem of item.subItemList" [text]="subitem.SubItemName">
                             </Label>
+                            <TextInputLayout hint="Name" hintAnimationEnabled="true">
+                                <TextField ReturnKeyType="done"></TextField>
+                            </TextInputLayout>
+                            <TextInputLayout hint="Cost" hintAnimationEnabled="true">
+                                <TextField ReturnKeyType="done"></TextField>
+                            </TextInputLayout>
                         </StackLayout>
                     </StackLayout>
                 </StackLayout>
             </StackLayout>
+            <TextInputLayout hint="Name" hintAnimationEnabled="true">
+                <TextField ReturnKeyType="done"></TextField>
+            </TextInputLayout>
         </StackLayout>
     </ScrollView>
 </GridLayout>
