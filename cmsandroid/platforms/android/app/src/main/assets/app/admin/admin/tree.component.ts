@@ -11,20 +11,7 @@ import { trigger, state, transition, animate } from "@angular/core/src/animation
     selector: 'app-admin',
     templateUrl: './tree.component.html',
     styleUrls: ['./tree.component.scss'],
-    animations: [
-        trigger('shrinkOut', [
-          state('in', style({})),
-          transition('* => void', [
-            style({ height: '*', opacity: 1 }),
-            animate(1000, style({ height: 0, opacity: 0 }))
-          ]),
-          transition('void => *', [
-            style({ height: 0, opacity: 0 }),
-            animate(1000, style({ height: '*', opacity: 1 }))
-          ])
-        ])
-      ]
-})
+    })
 export class TreeComponent implements OnInit {
 
     public tree = [];
@@ -102,4 +89,29 @@ export class TreeComponent implements OnInit {
     }
 
     onItemTap(itemobj) { 
-        var stack = 
+        var stack = itemobj.object;
+        var chield = stack.getChildAt(1);
+        
+        if (chield.className == "close") {
+            chield.className = "open";
+            chield.translateY = -300;
+            chield.animate({
+                scale: { x: 1, y:1},    
+                duration: 1000,
+                curve: AnimationCurve.easeIn
+            });
+
+        }
+        else {
+             chield.animate({
+                scale:{x:1,y:1}
+            }).then(function(){
+                chield.className = "close";
+            });
+        }
+
+    }
+
+}
+
+
