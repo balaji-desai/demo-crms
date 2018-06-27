@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "C:\\Users\\BALAJI\\Desktop\\GitRepo\\cmsandroid\\platforms\\tempPlugin\\nativescript_bottom_navigation\\build\\intermediates\\res\\merged\\release\\layout-v11\\notification_template_big_media.xml",
+        "source": "C:\\Users\\BALAJI\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\6691a1b721d6cb14ffe676fb1efb8601\\res\\layout-v11\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "C:\\Users\\BALAJI\\Desktop\\GitRepo\\cmsandroid\\platforms\\tempPlugin\\nativescript_bottom_navigation\\build\\intermediates\\res\\merged\\release\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\BALAJI\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\6691a1b721d6cb14ffe676fb1efb8601\\res\\layout-v11\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\BALAJI\\Desktop\\GitRepo\\cmsandroid\\platforms\\tempPlugin\\nativescript_bottom_navigation\\build\\intermediates\\res\\merged\\release\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\BALAJI\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\6691a1b721d6cb14ffe676fb1efb8601\\res\\layout-v11\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "C:\\Users\\BALAJI\\Desktop\\GitRepo\\cmsandroid\\platforms\\tempPlugin\\nativescript_bottom_navigation\\build\\intermediates\\res\\merged\\release\\layout-v11\\notification_media_action.xml",
+        "source": "C:\\Users\\BALAJI\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\6691a1b721d6cb14ffe676fb1efb8601\\res\\layout-v11\\notification_media_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\BALAJI\\Desktop\\GitRepo\\cmsandroid\\platforms\\tempPlugin\\nativescript_bottom_navigation\\build\\intermediates\\res\\merged\\release\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\BALAJI\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\6691a1b721d6cb14ffe676fb1efb8601\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "C:\\Users\\BALAJI\\Desktop\\GitRepo\\cmsandroid\\platforms\\tempPlugin\\nativescript_bottom_navigation\\build\\intermediates\\res\\merged\\release\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\BALAJI\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\6691a1b721d6cb14ffe676fb1efb8601\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+    }
+]

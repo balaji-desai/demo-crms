@@ -1,0 +1,68 @@
+<!-- <label class="h1 title" text="ownercreate"></label> -->
+    <ActionBar title="Crms" class="action-bar">
+    </ActionBar>
+    <StackLayout width="100%" height="100%">
+        <StackLayout height="90%">
+            <StackLayout horizontalAlignment="left" width="30" style="margin-right: 5;" (tap)="onClose()">
+                <Image width="30" height="30" src="res://ic_menu_back"></Image>
+            </StackLayout>
+            <ScrollView sdkExampleTitle sdkToggleNavButton>
+                <StackLayout dock="top" style="margin-bottom:10px;">
+                    <form [formGroup]="createowner">
+                        <StackLayout *ngIf="enableCD">
+                            <form [formGroup]="Passwords">
+                                <TextInputLayout hint="User Name" hintAnimationEnabled="true">
+                                    <TextField formControlName="UserName" ReturnKeyType="done"></TextField>
+                                </TextInputLayout>
+                                <TextInputLayout hint="Password" hintAnimationEnabled="true">
+                                    <TextField formControlName="Password" secure="true" ReturnKeyType="done"></TextField>
+                                </TextInputLayout>
+                                <TextInputLayout hint="Confirm Password" hintAnimationEnabled="true">
+                                    <TextField formControlName="ConfirmPassword" validateEqual="password" secure="true" ReturnKeyType="done"></TextField>
+                                </TextInputLayout>
+                                <show-errors [control]="Passwords.controls.invalid"></show-errors>
+                            </form>
+                        </StackLayout>
+                        <StackLayout *ngIf="enablePQ">
+                            <TextInputLayout hint="First Name" hintAnimationEnabled="true">
+                                <TextField formControlName="FirstName" ReturnKeyType="done"></TextField>
+                            </TextInputLayout>
+                            <TextInputLayout hint="Last Name" hintAnimationEnabled="true">
+                                <TextField formControlName="LastName" ReturnKeyType="done"></TextField>
+                            </TextInputLayout>
+                            <TextInputLayout hint="Address" hintAnimationEnabled="true">
+                                <TextField formControlName="Address" ReturnKeyType="done"></TextField>
+                            </TextInputLayout>
+                            <TextInputLayout hint="City" hintAnimationEnabled="true">
+                                <TextField formControlName="City" ReturnKeyType="done"></TextField>
+                            </TextInputLayout>
+                            <TextInputLayout hint="State" hintAnimationEnabled="true">
+                                <TextField formControlName="State" ReturnKeyType="done"></TextField>
+                            </TextInputLayout>
+                            <TextInputLayout hint="Mobile No." hintAnimationEnabled="true">
+                                <MaskedTextField formControlName="MobileNo" class="input input-border" mask="99-9999-9999" keyboardType="phone"></MaskedTextField>
+                            </TextInputLayout>
+                            <TextInputLayout hint="ZipCode" hintAnimationEnabled="true">
+                                <TextField formControlName="ZipCode" ReturnKeyType="done" keyboardType="number"></TextField>
+                            </TextInputLayout>
+                            <TextInputLayout hint="ISD Code" hintAnimationEnabled="true">
+                                <TextField formControlName="ISDCode" maxLenght="3" ReturnKeyType="done" keyboardType="number"></TextField>
+                            </TextInputLayout>
+                            <TextInputLayout hint="Garage Name" hintAnimationEnabled="true">
+                                <TextField formControlName="CrName" ReturnKeyType="done"></TextField>
+                            </TextInputLayout>
+                        </StackLayout>
+                        <label *ngIf="createowner.controls.FirstName.errors" text="This field is required!"></label>
+                    </form>
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+        <AbsoluteLayout height="10%" style="background-color:rgb(42, 25, 59)">
+            <Button id="next" text="Next" class="style h3" *ngIf="enablePQ" style="background-color:transparent; color:white" height="100%" width="100%"
+                (tap)="next()" [isEnabled]="createowner.dirty && createowner.valid" text="Next">
+                </Button>
+                <Button *ngIf="enableCD" class="style h3" (tap)="Create(createowner.value,Passwords.value)" [isEnabled]="Passwords.dirty && Passwords.valid && createowner.dirty && createowner.valid"
+                style="background-color:transparent; color:white" height="100%" width="100%" text="Create" class="submit-button">
+                </Button>
+        </AbsoluteLayout>
+    </StackLayout>

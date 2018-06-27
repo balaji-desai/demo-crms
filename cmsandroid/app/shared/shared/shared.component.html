@@ -1,0 +1,20 @@
+<StackLayout>
+  <form [formGroup]="loginform">
+    <StackLayout>
+      <TextField hint="Email Address" formControlName="Email" keyboardType="email" autocorrect="false" autocapitalizationType="none">
+        </TextField>
+        <TextField hint="Password" formControlName="Password" secure="true" >
+        </TextField>
+        <label *ngIf="loginform.controls.Email.dirty && loginform.controls.Email.invalid" text="Invalid Email."></label>
+        <label *ngIf="loginform.controls.Password.dirty && loginform.controls.Password.invalid" text="Invalid Password."></label>
+        <Button (tap)="submit()" [isEnabled]="loginform.dirty && loginform.valid" text="Sign in" class="submit-button">
+        </Button>
+        <!-- <label text="login pristine:{{loginform.pristine}}"></label>
+        <label text="loginform invalid:{{loginform.invalid}}"></label>
+        <label text="Email Invalid : {{loginform.controls.Password.invalid}}"></label>
+        <label text="Email Touch:{{loginform.controls.Email.touched}}"></label> -->
+        <Button text="Sign up for new user">
+        </Button>
+      </StackLayout>
+  </form>
+</StackLayout>

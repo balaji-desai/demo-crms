@@ -1,0 +1,87 @@
+{
+  "_from": "nativescript-textinputlayout@^2.0.3",
+  "_id": "nativescript-textinputlayout@2.0.3",
+  "_inBundle": false,
+  "_integrity": "sha512-jWHfkuLRcI7RDe+ElDOibEN73anJkHzWPLD91iWTtJhK+bLltT+8bd4BQg5ahI4DjIpZjFu3Q0Af1RX4Mgw16w==",
+  "_location": "/nativescript-textinputlayout",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "nativescript-textinputlayout@^2.0.3",
+    "name": "nativescript-textinputlayout",
+    "escapedName": "nativescript-textinputlayout",
+    "rawSpec": "^2.0.3",
+    "saveSpec": null,
+    "fetchSpec": "^2.0.3"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-textinputlayout/-/nativescript-textinputlayout-2.0.3.tgz",
+  "_shasum": "3fd3e67bf180ec1ab3d4ee25596dca636d95e597",
+  "_spec": "nativescript-textinputlayout@^2.0.3",
+  "_where": "C:\\Users\\BALAJI\\Desktop\\cmsandroid",
+  "author": {
+    "name": "Bradley Gore",
+    "email": "bradley@bradleygore.com",
+    "url": "https://github.com/bradleygore"
+  },
+  "bugs": {
+    "url": "https://github.com/bradleygore/nativescript-textinputlayout/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [],
+  "dependencies": {},
+  "deprecated": false,
+  "description": "A NativeScript plugin to provide an XML widget to implement the Material Design TextInputLayout.",
+  "devDependencies": {
+    "babel-traverse": "6.22.1",
+    "babel-types": "6.22.0",
+    "babylon": "6.15.0",
+    "lazy": "1.0.11",
+    "tns-core-modules": "^3.0.0",
+    "tns-platform-declarations": "^3.0.0",
+    "typescript": "2.3.4"
+  },
+  "homepage": "https://github.com/bradleygore/nativescript-textinputlayout",
+  "keywords": [
+    "NativeScript",
+    "native",
+    "script",
+    "float",
+    "floating label",
+    "android",
+    "TextInputLayout",
+    "Material Design",
+    "bradleygore"
+  ],
+  "license": "MIT",
+  "main": "textInputLayout",
+  "name": "nativescript-textinputlayout",
+  "nativescript": {
+    "platforms": {
+      "android": "3.4.0",
+      "ios": "3.4.0"
+    }
+  },
+  "peerDependencies": {
+    "tns-core-modules": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bradleygore/nativescript-textinputlayout.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "debug.android": "npm run preparedemo; cd demo; tns debug android --emulator --debug-brk",
+    "debug.ios": "npm run preparedemo; cd demo; tns debug ios --emulator --debug-brk",
+    "demo.android": "npm run preparedemo; cd demo; tns run android",
+    "demo.ios": "npm run preparedemo; cd demo; tns run ios",
+    "preparedemo": "npm run build; cd demo; tns plugin remove nativescript-textinputlayout; tns plugin add ..; tns install",
+    "setup": "cd demo; npm install; cd ..; npm run build; cd demo; tns plugin add ..; cd .."
+  },
+  "typings": "textInputLayout.d.ts",
+  "version": "2.0.3"
+}

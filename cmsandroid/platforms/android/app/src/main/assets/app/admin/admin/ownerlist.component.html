@@ -1,0 +1,33 @@
+<StackLayout class="body">
+    <SearchBar #search hint="Search" dock="left" [(ngModel)]="searchPhrase" (tap)="applyanimation()" (textChange)="onTextChanged($event)"
+        (submit)="onSubmit($event)" color="white" textFieldBackgroundColor="white" style="color:black;" textFieldHintColor="black">
+    </SearchBar>
+    <ActivityIndicator [busy]="isLoading" [visibility]="isLoading ? 'visible' : 'collapse'" row="1" horizontalAlignment="center" verticalAlignment="center">
+    </ActivityIndicator>
+    <GridLayout rows="auto, *">
+        <ListView #list *ngIf="isLoading == false" [items]="Owner" item-width="100" row="1" (swipe)="onSwipe($event)" (itemTap)="isLoading = true;onItemTap($event)" class="list-group">
+            <ng-template let-own="item" let-i="index" let-odd="odd" let-even="even">
+                <GridLayout class="list-group-item">
+                        <StackLayout>
+                            <Label class="list-group-item-heading" [text]="own.CrName"></Label>
+                            <Label class="list-group-item-text" [text]="own.Firstname+' '+own.LastName"></Label>
+                        </StackLayout>
+                </GridLayout>
+            </ng-template>
+            <StackLayout class="hr-dark m-10" style="background-color:aqua"></StackLayout>
+        </ListView>
+        <FAB row="1" (tap)="isLoading == true;create(searchPhrase)" icon="res://adduser" rippleColor="rgb(42, 25, 59)" class="fab-button"></FAB>
+    </GridLayout>
+</StackLayout>
+
+
+
+<router-outlet></router-outlet>
+<!-- <StackLayout *ngIf="enableCreat">
+    <app-create (backview)="showview()"></app-create>
+</StackLayout>
+<StackLayout *ngIf="enableDetail">
+    <app-detail [ownerId]="ownerId"></app-detail>
+</StackLayout> -->
+
+<!-- <router-outlet></router-outlet> -->

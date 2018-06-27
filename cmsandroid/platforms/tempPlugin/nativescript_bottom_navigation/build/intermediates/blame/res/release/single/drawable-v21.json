@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "C:\\Users\\BALAJI\\Desktop\\GitRepo\\cmsandroid\\platforms\\tempPlugin\\nativescript_bottom_navigation\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\BALAJI\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\6691a1b721d6cb14ffe676fb1efb8601\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\BALAJI\\Desktop\\GitRepo\\cmsandroid\\platforms\\tempPlugin\\nativescript_bottom_navigation\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\BALAJI\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\6691a1b721d6cb14ffe676fb1efb8601\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\BALAJI\\Desktop\\GitRepo\\cmsandroid\\platforms\\tempPlugin\\nativescript_bottom_navigation\\build\\intermediates\\res\\merged\\release\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\BALAJI\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\149c617f2495fda9db4da2c580350b11\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\BALAJI\\Desktop\\GitRepo\\cmsandroid\\platforms\\tempPlugin\\nativescript_bottom_navigation\\build\\intermediates\\res\\merged\\release\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\BALAJI\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\6691a1b721d6cb14ffe676fb1efb8601\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\BALAJI\\Desktop\\GitRepo\\cmsandroid\\platforms\\tempPlugin\\nativescript_bottom_navigation\\build\\intermediates\\res\\merged\\release\\drawable-v21\\avd_show_password.xml",
+        "source": "C:\\Users\\BALAJI\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\149c617f2495fda9db4da2c580350b11\\res\\drawable-v21\\avd_show_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\BALAJI\\Desktop\\GitRepo\\cmsandroid\\platforms\\tempPlugin\\nativescript_bottom_navigation\\build\\intermediates\\res\\merged\\release\\drawable-v21\\avd_hide_password.xml",
+        "source": "C:\\Users\\BALAJI\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\149c617f2495fda9db4da2c580350b11\\res\\drawable-v21\\avd_hide_password.xml"
+    },
+    {
+        "merged": "C:\\Users\\BALAJI\\Desktop\\GitRepo\\cmsandroid\\platforms\\tempPlugin\\nativescript_bottom_navigation\\build\\intermediates\\res\\merged\\release\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\BALAJI\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\6691a1b721d6cb14ffe676fb1efb8601\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\BALAJI\\Desktop\\GitRepo\\cmsandroid\\platforms\\tempPlugin\\nativescript_bottom_navigation\\build\\intermediates\\res\\merged\\release\\drawable-v21\\item_background.xml",
+        "source": "C:\\Users\\BALAJI\\.gradle\\caches\\transforms-1\\files-1.1\\ahbottomnavigation-2.1.0.aar\\7f3ae6bbfe23cc9d9068d7216679fc2c\\res\\drawable-v21\\item_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\BALAJI\\Desktop\\GitRepo\\cmsandroid\\platforms\\tempPlugin\\nativescript_bottom_navigation\\build\\intermediates\\res\\merged\\release\\drawable-v21\\design_password_eye.xml",
+        "source": "C:\\Users\\BALAJI\\.gradle\\caches\\transforms-1\\files-1.1\\design-25.3.1.aar\\149c617f2495fda9db4da2c580350b11\\res\\drawable-v21\\design_password_eye.xml"
+    }
+]

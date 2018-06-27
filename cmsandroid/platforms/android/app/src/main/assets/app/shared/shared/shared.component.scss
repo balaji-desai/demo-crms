@@ -1,0 +1,21 @@
+StackLayout {
+    margin-left: 15;
+    margin-right: 15;
+    margin-top: 30;
+    margin-bottom: 50;
+    background-color: #DE9191;
+  }
+  Image {
+    margin-top: 5;
+    margin-bottom: 20;
+  }
+  Button, TextField {
+    margin-left: 16;
+    margin-right: 16;
+    margin-bottom: 10;
+  }
+  .submit-button {
+    background-color: #C2290F;
+    color: #0D0C0C;
+    margin-top: 20;
+  }

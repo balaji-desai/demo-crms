@@ -1,0 +1,92 @@
+{
+  "_from": "nativescript-bottombar",
+  "_id": "nativescript-bottombar@3.0.8",
+  "_inBundle": false,
+  "_integrity": "sha1-nWXw0jwy2M1uHcnVcres+roczAU=",
+  "_location": "/nativescript-bottombar",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "nativescript-bottombar",
+    "name": "nativescript-bottombar",
+    "escapedName": "nativescript-bottombar",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/nativescript-bottombar/-/nativescript-bottombar-3.0.8.tgz",
+  "_shasum": "9d65f0d23c32d8cd6e1dc9d572b7acfaba1ccc05",
+  "_spec": "nativescript-bottombar",
+  "_where": "C:\\Users\\BALAJI\\Desktop\\cmsandroid",
+  "author": {
+    "name": "rhanbIT",
+    "email": "aniel.jeanbaptiste@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/rhanbIT/nativescript-bottombar/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "NativeScript plugin for AHBottomNavigation.",
+  "devDependencies": {
+    "tns-core-modules": "^3.2.0",
+    "tns-platform-declarations": "^3.2.0",
+    "typescript": "^2.3.2"
+  },
+  "homepage": "https://github.com/rhanbIT/nativescript-bottombar",
+  "keywords": [
+    "NativeScript",
+    "JavaScript",
+    "TypeScript",
+    "Angular",
+    "BottomBar",
+    "Bottom bar",
+    "Material Design",
+    "bottom navigation",
+    "tab navigation",
+    "Android",
+    "iOS",
+    "MiniTabBar"
+  ],
+  "main": "bottombar",
+  "name": "nativescript-bottombar",
+  "nativescript": {
+    "platforms": {
+      "android": "3.2.0",
+      "ios": "3.2.0"
+    },
+    "plugin": {
+      "nan": "true",
+      "pan": "true",
+      "core3": "true",
+      "vue": "true",
+      "webpack": "false",
+      "category": "Developer"
+    }
+  },
+  "plugin": {
+    "nan": "true",
+    "pan": "true",
+    "core3": "true",
+    "category": "Interface"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhanbIT/nativescript-bottombar.git"
+  },
+  "scripts": {
+    "build": "tsc",
+    "demo.android": "npm run preparedemo && cd demo-ng && tns run android",
+    "demo.ios": "npm run preparedemo && cd demo-ng && tns run ios",
+    "preparedemo": "npm run build && cd demo-ng && tns plugin remove nativescript-bottombar && tns plugin add .. && tns install",
+    "setup": "cd demo-ng && npm install && cd .. && npm run build && cd demo-ng && tns plugin add .. && cd ..",
+    "typingz": "cd demo-ng && TNS_TYPESCRIPT_DECLARATIONS_PATH='$(pwd)/typingz' tns build ios"
+  },
+  "typings": "index.d.ts",
+  "version": "3.0.8"
+}
