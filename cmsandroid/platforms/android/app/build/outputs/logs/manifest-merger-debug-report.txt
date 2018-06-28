@@ -5,6 +5,7 @@ INJECTED from C:\Users\BALAJI\Desktop\GitRepo\cmsandroid\platforms\android\app\s
 INJECTED from C:\Users\BALAJI\Desktop\GitRepo\cmsandroid\platforms\android\app\src\main\AndroidManifest.xml:2:1-43:12
 INJECTED from C:\Users\BALAJI\Desktop\GitRepo\cmsandroid\platforms\android\app\src\main\AndroidManifest.xml:2:1-43:12
 MERGED from [com.aurelhubert:ahbottomnavigation:2.1.0] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.1.0.aar\7f3ae6bbfe23cc9d9068d7216679fc2c\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0-alpha1.aar\fd9e8edb95e1e87bf61566018047ea64\AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\5c8a0e3d174fedbdfc5245b3058a2cf1\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\85e40114809e4191aa3162131e763ace\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-alpha1.aar\c8f62835db71e273154dd37932fe5fe8\AndroidManifest.xml:17:1-26:12
@@ -57,6 +58,8 @@ INJECTED from C:\Users\BALAJI\Desktop\GitRepo\cmsandroid\platforms\android\app\s
 INJECTED from C:\Users\BALAJI\Desktop\GitRepo\cmsandroid\platforms\android\app\src\main\AndroidManifest.xml:13:2-15:34
 MERGED from [com.aurelhubert:ahbottomnavigation:2.1.0] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.1.0.aar\7f3ae6bbfe23cc9d9068d7216679fc2c\AndroidManifest.xml:7:5-9:41
 MERGED from [com.aurelhubert:ahbottomnavigation:2.1.0] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.1.0.aar\7f3ae6bbfe23cc9d9068d7216679fc2c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0-alpha1.aar\fd9e8edb95e1e87bf61566018047ea64\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0-alpha1.aar\fd9e8edb95e1e87bf61566018047ea64\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\5c8a0e3d174fedbdfc5245b3058a2cf1\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\5c8a0e3d174fedbdfc5245b3058a2cf1\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\85e40114809e4191aa3162131e763ace\AndroidManifest.xml:21:5-23:78
@@ -124,6 +127,8 @@ application
 ADDED from C:\Users\BALAJI\Desktop\GitRepo\cmsandroid\platforms\android\app\src\main\AndroidManifest.xml:21:2-42:16
 MERGED from [com.aurelhubert:ahbottomnavigation:2.1.0] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.1.0.aar\7f3ae6bbfe23cc9d9068d7216679fc2c\AndroidManifest.xml:11:5-20
 MERGED from [com.aurelhubert:ahbottomnavigation:2.1.0] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\ahbottomnavigation-2.1.0.aar\7f3ae6bbfe23cc9d9068d7216679fc2c\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0-alpha1.aar\fd9e8edb95e1e87bf61566018047ea64\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0-alpha1.aar\fd9e8edb95e1e87bf61566018047ea64\AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\5c8a0e3d174fedbdfc5245b3058a2cf1\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\5c8a0e3d174fedbdfc5245b3058a2cf1\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\85e40114809e4191aa3162131e763ace\AndroidManifest.xml:29:5-20
@@ -189,7 +194,9 @@ ADDED from C:\Users\BALAJI\Desktop\GitRepo\cmsandroid\platforms\android\app\src\
 	android:name
 		ADDED from C:\Users\BALAJI\Desktop\GitRepo\cmsandroid\platforms\android\app\src\main\AndroidManifest.xml:41:13-55
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\5c8a0e3d174fedbdfc5245b3058a2cf1\AndroidManifest.xml:25:5-27:41
+ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0-alpha1.aar\fd9e8edb95e1e87bf61566018047ea64\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\5c8a0e3d174fedbdfc5245b3058a2cf1\AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\5c8a0e3d174fedbdfc5245b3058a2cf1\AndroidManifest.xml:25:5-27:41
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\85e40114809e4191aa3162131e763ace\AndroidManifest.xml:25:5-27:41
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0-alpha1.aar\85e40114809e4191aa3162131e763ace\AndroidManifest.xml:25:5-27:41
 MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0-alpha1.aar\c8f62835db71e273154dd37932fe5fe8\AndroidManifest.xml:22:5-24:41
@@ -213,6 +220,6 @@ MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] C:\Users\BALA
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\ee27923f84177346315aa28a8f43cc77\AndroidManifest.xml:25:5-27:41
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0-alpha1.aar\ee27923f84177346315aa28a8f43cc77\AndroidManifest.xml:25:5-27:41
 	android:value
-		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\5c8a0e3d174fedbdfc5245b3058a2cf1\AndroidManifest.xml:27:9-38
+		ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0-alpha1.aar\fd9e8edb95e1e87bf61566018047ea64\AndroidManifest.xml:24:9-38
 	android:name
-		ADDED from [com.android.support:design:26.0.0-alpha1] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\design-26.0.0-alpha1.aar\5c8a0e3d174fedbdfc5245b3058a2cf1\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:cardview-v7:26.0.0-alpha1] C:\Users\BALAJI\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.0.0-alpha1.aar\fd9e8edb95e1e87bf61566018047ea64\AndroidManifest.xml:23:9-47

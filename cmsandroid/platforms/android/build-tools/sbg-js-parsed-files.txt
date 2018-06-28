@@ -111,6 +111,8 @@ C:\Users\BALAJI\Desktop\GitRepo\cmsandroid\platforms\android\app\src\main\assets
 C:\Users\BALAJI\Desktop\GitRepo\cmsandroid\platforms\android\app\src\main\assets\app\tns_modules\nativescript-bottombar\src\ios\bottombar-item.js
 C:\Users\BALAJI\Desktop\GitRepo\cmsandroid\platforms\android\app\src\main\assets\app\tns_modules\nativescript-bottombar\src\ios\bottombar.js
 C:\Users\BALAJI\Desktop\GitRepo\cmsandroid\platforms\android\app\src\main\assets\app\tns_modules\nativescript-bottombar\src\notification.js
+C:\Users\BALAJI\Desktop\GitRepo\cmsandroid\platforms\android\app\src\main\assets\app\tns_modules\nativescript-cardview\cardview-common.js
+C:\Users\BALAJI\Desktop\GitRepo\cmsandroid\platforms\android\app\src\main\assets\app\tns_modules\nativescript-cardview\cardview.js
 C:\Users\BALAJI\Desktop\GitRepo\cmsandroid\platforms\android\app\src\main\assets\app\tns_modules\nativescript-floatingactionbutton\fab-common.js
 C:\Users\BALAJI\Desktop\GitRepo\cmsandroid\platforms\android\app\src\main\assets\app\tns_modules\nativescript-floatingactionbutton\fab.js
 C:\Users\BALAJI\Desktop\GitRepo\cmsandroid\platforms\android\app\src\main\assets\app\tns_modules\nativescript-intl\index.js

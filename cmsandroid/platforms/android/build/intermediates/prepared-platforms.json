@@ -12,6 +12,7 @@
     "nativescript-angular": true,
     "nativescript-bottom-navigation": true,
     "nativescript-bottombar": true,
+    "nativescript-cardview": true,
     "nativescript-floatingactionbutton": true,
     "nativescript-masked-text-field": true,
     "nativescript-textinputlayout": true,

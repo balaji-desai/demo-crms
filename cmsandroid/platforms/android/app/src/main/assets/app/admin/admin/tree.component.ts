@@ -5,6 +5,8 @@ import { AndroidApplication, AndroidActivityBackPressedEventData } from "tns-cor
 import { TreeStructure } from "~/admin/admin.model";
 import {AnimationCurve} from "ui/enums";
 import { trigger, state, transition, animate } from "@angular/core/src/animation/dsl";
+import { CardView } from 'nativescript-cardview';
+registerElement('CardView', () => CardView);
 
 @Component({
     moduleId: module.id,

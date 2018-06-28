@@ -6,9 +6,13 @@ import { registerElement } from "nativescript-angular/element-registry";
 @Component({
   selector: "my-app",
   template: `
-  <Page class="page"
+  <Page class="page">
+  <ActionBar
+  backgroundColor="rgb(42, 25, 59)"
+  title="Crms"></ActionBar>
     <!-- Your UI components go here -->
     <page-router-outlet></page-router-outlet>
+    </Page>
   `
 })
 export class AppComponent {

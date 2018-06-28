@@ -1,6 +1,6 @@
 <GridLayout>
     <ScrollView>
-        <StackLayout orientation="vertical">
+        <CardView class="cardStyle" margin="10" elevation="40" radius="1" >
             <StackLayout *ngFor="let item of tree">
                 <StackLayout class="h3 style" style="background-color: gray;border-bottom-color: aquamarine;border-bottom-width: 1px;" (tap)="onItemTap($event)">
                     <label [text]="item.ItemName">
@@ -22,6 +22,6 @@
             <TextInputLayout hint="Name" hintAnimationEnabled="true">
                 <TextField ReturnKeyType="done"></TextField>
             </TextInputLayout>
-        </StackLayout>
+        </CardView>
     </ScrollView>
 </GridLayout>

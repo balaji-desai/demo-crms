@@ -4,7 +4,7 @@ import { BottomBar, BottomBarItem, TITLE_STATE, SelectedIndexChangedEventData, N
 import { AndroidApplication, AndroidActivityBackPressedEventData } from "tns-core-modules/application";
 import * as application from "application";
 import * as dialogs from "ui/dialogs";
-
+import { CardView } from 'nativescript-cardview';
 registerElement('BottomBar', () => BottomBar);
 
 @Component({
